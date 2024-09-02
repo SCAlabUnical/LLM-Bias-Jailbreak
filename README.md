@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the code and instructions related to our paper titled **"Are Large Language Models _Really_ Bias-Free? Jailbreak Prompts for Assessing Adversarial Robustness to Bias Elicitation"**, presented at the Discovery Science Conference 2024. Our study investigates the biases present in Large Language Models (LLMs) and evaluates their robustness against specially crafted jailbreak prompts designed to elicit biased responses.
+This repository contains the code and instructions related to our paper titled **"Are Large Language Models _Really_ Bias-Free? Jailbreak Prompts for Assessing Adversarial Robustness to Bias Elicitation"**, presented at the 27th International Conference on Discovery Science 2024. Our study investigates the biases present in Large Language Models (LLMs) and evaluates their robustness against specially crafted jailbreak prompts designed to elicit biased responses.
 
 ## Abstract
 
@@ -23,10 +23,10 @@ This repository includes the following Python files:
    ```bash
    ollama start
    ```
-After that you can customize the main.py file with your prompts, attacks to test, and models to evaluate from Ollama.
+After that you can customize the _main.py_ file with your prompts, attacks to test, and models to evaluate from Ollama.
 
 ## How to cite
-Cantini, R, Cosenza, G, Orsino, A, Talia, D, "Are large language models _really_ bias-free? Jailbreak prompts for assessing adversarial robustness to bias elicitation". Discovery Science 2024.
+Cantini, R, Cosenza, G, Orsino, A, Talia, D, "Are large language models _really_ bias-free? Jailbreak prompts for assessing adversarial robustness to bias elicitation". 27th International Conference on Discovery Science 2024.
 
 ## Acknowledgements
 This work has been supported by the "FAIR – Future Artificial Intelligence Research" project - CUP H23C22000860006.
