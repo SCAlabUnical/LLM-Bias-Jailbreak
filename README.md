@@ -11,27 +11,19 @@ Large Language Models (LLMs) have revolutionized artificial intelligence, demons
 
 This repository includes the following Python files:
 
-1. **`bias_prompting.py`**: contains the code for generating attack prompts based on a given clean prompt. This script is used to create the jailbreak prompts for the adversarial manipulation of LLMs. Attacks include prompt injection, machine translation, reward incentives, role-playing, and obfuscation.
+1. **`bias_prompting.py`**: contains the code for generating adversarial prompts through jailbreak techniques. Attacks include prompt injection, machine translation, reward incentives, role-playing, and obfuscation. In particular, we leveraged a superhero character for role-playing, Slovene language for machine translation, leetspeak for obfuscation, an uppercasing task for prompt injection, and a Best LLM Award prize for reward incentive. 
 
-2. **`main.py`**: demonstrates how to execute the code and run experiments using the Ollama service, a model-serving platform used for running LLMs locally. Follow the instructions below to install and use Ollama.
-
-## Installation and Setup
-
-### 1. Setting Up Ollama
-
-To use Ollama locally, follow these steps:
-
-1. **Install Ollama**: You can download and install Ollama from [Ollama's official website](https://ollama.com/download).
-
-2. **Start the Ollama Service**: Open a terminal and run the following command to start the Ollama service:
+2. **`main.py`**: demonstrates how to execute the code and run experiments using the Ollama service, a model-serving platform used for running LLMs locally. To use Ollama locally, follow these steps:
+   1. **Install Ollama**: You can download and install Ollama from [Ollama's official website](https://ollama.com/download).
+   2. **Start the Ollama Service**: Open a terminal and run the following command to start the Ollama service:
    ```bash
    ollama serve
    ```
-
-3. **Run Ollama**: Once the service is running, you can use the following command to interact with the models:
+   3. **Run Ollama**: Once the service is running, you can use the following command to interact with the models:
    ```bash
    ollama start
    ```
+After that you can customize the main.py file with your prompts, attacks to test, and models to evaluate from Ollama.
 
 ## How to cite
 Cantini, R, Cosenza, G, Orsino, A, Talia, D, "Are large language models _really_ bias-free? Jailbreak prompts for assessing adversarial robustness to bias elicitation". Discovery Science 2024.
