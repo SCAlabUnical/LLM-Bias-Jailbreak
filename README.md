@@ -11,8 +11,7 @@ Large Language Models (LLMs) have revolutionized artificial intelligence, demons
 
 This repository includes the following Python files:
 
-1. **`bias_prompting.py`**: contains the code for generating attack prompts based on a given clean prompt. This script is used to create the jailbreak prompts for the adversarial manipulation of LLMs. Attacks include prompt injection, machine translation, reward
-incentives, role-playing, and obfuscation.
+1. **`bias_prompting.py`**: contains the code for generating attack prompts based on a given clean prompt. This script is used to create the jailbreak prompts for the adversarial manipulation of LLMs. Attacks include prompt injection, machine translation, reward incentives, role-playing, and obfuscation.
 
 2. **`main.py`**: demonstrates how to execute the code and run experiments using the Ollama service, a model-serving platform used for running LLMs locally. Follow the instructions below to install and use Ollama.
 
@@ -36,3 +35,6 @@ To use Ollama locally, follow these steps:
 
 ## How to cite
 Cantini, R, Cosenza, G, Orsino, A, Talia, D, "Are large language models _really_ bias-free? Jailbreak prompts for assessing adversarial robustness to bias elicitation". Discovery Science 2024.
+
+## Acknowledgements
+This work has been supported by the "FAIR – Future Artificial Intelligence Research" project - CUP H23C22000860006.
